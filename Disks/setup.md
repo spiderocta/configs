@@ -1,5 +1,5 @@
-Prerequisites
-Install these packages on Ubuntu/Debian:
+# Prerequisites
+# Install these packages on Ubuntu/Debian:
 
 
 ```
@@ -8,9 +8,9 @@ sudo apt install -y xorriso squashfs-tools wget isolinux
 ```
 
 
-Build Steps
+# Build Steps
 
-Make the build script executable:
+# Make the build script executable:
 
 ```
 bashchmod +x build-serverstore.sh
@@ -21,4 +21,13 @@ bashchmod +x build-serverstore.sh
 sudo ./build-serverstore.sh
 ```
 
+
+# manually run 
+
+
+# In the SystemRescue prompt, run these commands:
+```
+
+bash /run/archiso/bootmnt/autorun/serverstore-init.sh
+```
 
